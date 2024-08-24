@@ -1,4 +1,4 @@
-package exercicio1;
+package exercicio2;
 import java.util.Scanner;
 public class MatrizTransposta {
     public static int [] [] matrizTransposta (){
