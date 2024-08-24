@@ -6,7 +6,7 @@ public class GerarMatriz {
     public static int [] [] gerarMatriz () {
         Random random = new Random();
 
-        int matriz [] [] = new int [2] [2];
+        int matriz [] [] = new int [3] [2];
         
         for(int i = 0; i<matriz.length; i ++){
             for(int j = 0;j < matriz[i].length; j++){
