@@ -1,4 +1,4 @@
-package populando_matrizes_com_numeros_aleatorios;
+package exercicio2;
 import java.util.Random;
 public class GerarMatriz {
 

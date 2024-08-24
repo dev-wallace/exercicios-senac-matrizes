@@ -1,4 +1,4 @@
-package populando_matrizes_com_numeros_aleatorios.matrizes_transposta;
+package exercicio1;
 import java.util.Scanner;
 public class MatrizTransposta {
     public static int [] [] matrizTransposta (){
