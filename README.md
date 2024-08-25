@@ -21,6 +21,11 @@ Se a matriz `A` for de dimensões `3 x 2`:
 
 A matriz transposta `At` será de dimensões `2 x 3`:
 
+#  maior valor presente nesta matriz
+
+# exercicio 3
+Criar uma função que receba uma `matriz` nxm de números inteiros e
+devolva o `maior` valor presente nesta matriz.
 
 
 
