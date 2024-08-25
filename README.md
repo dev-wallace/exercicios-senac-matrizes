@@ -24,8 +24,24 @@ A matriz transposta `At` será de dimensões `2 x 3`:
 #  maior valor presente nesta matriz
 
 # exercicio 3
+
 Criar uma função que receba uma `matriz` nxm de números inteiros e
 devolva o `maior` valor presente nesta matriz.
+
+#  Exibir o traço de uma matriz
+
+# exercicio 4
+
+O `traço` de uma matriz é a soma dos elementos de sua diagonal principal.
+Crie uma função que receba uma `matriz` quadrada (número de linhas =
+número de colunas) e devolva o seu `traço`.
+## Exemplo
+    matriz 3x3
+    {123}
+    {456}
+    {789}
+    traco = 1 5 9
+         
 
 
 

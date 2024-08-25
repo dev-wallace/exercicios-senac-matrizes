@@ -37,13 +37,13 @@ public class MaiorValor {
             }
         }
          
-        
+        sc.close();
         System.out.println("maior numero da matriz digitado " +maior);
        
-
+      
         return maiorValor;
-
+        
     }
-
+  
     
 }

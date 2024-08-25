@@ -22,7 +22,7 @@ public class MatrizTransposta {
 
         for(int i = 0;i<matrizTransposta.length; i++){
             for(int j = 0; j<matrizTransposta[i].length;j++){
-                System.out.println("informe os vaores das linhas para a matriz " +aux+ "x" +linhas+ "*ela sera transposta*");
+                System.out.println("informe os valores das linhas para a matriz " +aux+ "x" +linhas+ "*ela sera transposta*");
 
                 matrizTransposta [i] [j]= sc.nextInt();
 
@@ -37,9 +37,11 @@ public class MatrizTransposta {
 
                 System.out.print(matrizTransposta[i][j] + " ");
             }
+            sc.close();
             System.out.println();
         }
         return matrizTransposta;
+
 
     }
     

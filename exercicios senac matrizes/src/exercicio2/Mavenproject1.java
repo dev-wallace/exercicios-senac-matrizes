@@ -23,6 +23,7 @@ public class Mavenproject1 {
         for (int i = 0; i < v.length; i++) {
             System.out.print(v[i] + " ");
         }
+        entrada.close();
         System.out.println();
         return v;
     }
