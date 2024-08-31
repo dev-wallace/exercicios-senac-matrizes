@@ -1,14 +1,30 @@
 import exercicio1.*;
 import exercicio2.*;
+import exercicio3.*;
 import exercicio4.*;
 import java.util.Scanner;
 
+/*
+Entrega a Atividade 1 - Algoritmos e Programação II
+
+Eu,
+
+Wallace Araujo
+
+
+
+declaro que
+
+todas as respostas são fruto do meu próprio trabalho,
+não copiei respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
+*/
 public class Main {
   public static void main(String[] args) throws Exception {
     Scanner sc = new Scanner(System.in);
     boolean ligado = true;
-    int[] vetor = new int[0]; // Inicializar o vetor fora do loop
-  
+
     while (ligado) {
       // Exibe o menu
       System.out.println("Escolha uma das opções abaixo:");
@@ -19,42 +35,78 @@ public class Main {
       System.out.println("Opção 9 - Sair");
 
       if (ligado) {
-      
+
         System.out.print("Escolha uma opção: ");
         int escolha = sc.nextInt();
 
-       
         switch (escolha) {
           case 1:
-          System.out.println("========================================================================================================================");
-            vetor = VetorRandomizada.vetorRandomizada(); 
+            System.out.println(
+                "========================================================================================================================");
+            int[] vetor = new int[0];
+            vetor = VetorRandomizada.vetorRandomizada();
             System.out.println("Vetor inicializado com números aleatórios:");
             for (int valor : vetor) {
               System.out.print(valor + " ");
             }
             System.out.println();
-            System.out.println("========================================================================================================================");
-          
+            System.out.println(
+                "========================================================================================================================");
 
             break;
 
           case 2:
-          System.out.println("========================================================================================================================");
-          ImprimirVetor.imprimirVetor();
-          System.out.println();
-          System.out.println("========================================================================================================================");
-       
+            System.out.println(
+                "========================================================================================================================");
+            ImprimirVetor.imprimirVetor();
+            System.out.println();
+            System.out.println(
+                "========================================================================================================================");
+
             break;
 
           case 3:
-            
+            System.out.println(
+                "========================================================================================================================");
+            System.out.println("Informe o numero alvo ");
+            int target = sc.nextInt();
+            int[] numeros = new int[4];
+            int verificador = NumeroAlvo.numeroAlvo(target, numeros);
+            if (verificador == -1) {
+              System.out.println("valor nao encontrado");
+            } else {
+              System.out.println("numero encontrado no indice " + verificador);
+
+            }
+
+            System.out.println();
+            System.out.println(
+                "========================================================================================================================");
+
             break;
 
           case 4:
-          System.out.println("========================================================================================================================");
-            int maior = MaiorValor.maiorValor(); 
+            System.out.println(
+                "========================================================================================================================");
+            int maior = MaiorValor.maiorValor();
             System.out.println("O maior número armazenado no vetor é: " + maior);
-            System.out.println("========================================================================================================================");
+            System.out.println(
+                "========================================================================================================================");
+            break;
+            case 5:
+           
+            break;
+
+            case 6:
+           
+            break;
+
+            case 7:
+           
+            break;
+            
+            case 8:
+           
             break;
 
           case 9:
