@@ -1,8 +1,8 @@
-# Matriz de Números Aleatórios
+# Vetor de Números Aleatórios
 
 # exercicio 1 
 
-Este exercico foi proposto em sala de aula contém uma função Java que gera uma matriz com dimensões especificadas pelo usuário, preenchida com números inteiros aleatórios entre 0 e 100.
+Este exercico foi proposto em sala de aula contém uma função Java que gera um `vetor` preenchido com números inteiros `aleatórios`.
 
 ## Funcionalidade
 
@@ -23,25 +23,14 @@ A matriz transposta `At` será de dimensões `2 x 3`:
 
 #  maior valor presente nesta matriz
 
-# exercicio 3
+# exercicio 4
 
-Criar uma função que receba uma `matriz` nxm de números inteiros e
-devolva o `maior` valor presente nesta matriz.
+Criar uma função que receba um `vetor` nxm de números inteiros e
+devolva o `maior` valor presente neste vetor.
 
 #  Exibir o traço de uma matriz
 
-# exercicio 4
 
-O `traço` de uma matriz é a soma dos elementos de sua diagonal principal.
-Crie uma função que receba uma `matriz` quadrada (número de linhas =
-número de colunas) e devolva o seu `traço`.
-## Exemplo
-    matriz 3x3
-    {123}
-    {456}
-    {789}
-    traco = 1 5 9
-         
 
 
 

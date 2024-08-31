@@ -1,4 +1,4 @@
-package exercicio4;
+package fe;
 import java.util.Scanner;
 public class MatrizTraco {
 
