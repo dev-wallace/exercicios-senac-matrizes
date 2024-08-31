@@ -1,36 +1,24 @@
-# Vetor de Números Aleatórios
+# Exercício de Manipulação de Vetores em Java
 
-# exercicio 1 
+Este repositório contém uma função Java que gera um vetor preenchido com números inteiros aleatórios e realiza diversas operações sobre esse vetor. Este exercício foi proposto em sala de aula e abrange as seguintes funcionalidades:
 
-Este exercico foi proposto em sala de aula contém uma função Java que gera um `vetor` preenchido com números inteiros `aleatórios`.
+## Funcionalidades
 
-## Funcionalidade
+1. **Inicializar o vetor com números aleatórios**: Gera um `vetor` preenchido com valores inteiros `aleatórios`.
 
-A função `gerarMatriz` recebe a quantidade de linhas e colunas como parâmetros e retorna uma mae triz ddimensão `linhas x colunas` contendo números inteiros gerados aleatoriamente entre 0 e 100.
+2. **Imprimir o vetor**: Exibe todos os elementos do `vetor` no terminal.
 
+3. **Verificar se um determinado número está contido no vetor**: Realiza uma busca no `vetor`Verificar se um `número alvo` está contido no vetor.
 
+4. **Buscar o maior número armazenado no vetor**: Identifica e retorna o maior valor presente no `vetor`.
 
-# Transposição de Matrizes em Java
-# exercicio 2
+5. **Calcular a média dos números pares armazenados no vetor**: Calcula e retorna a `média` dos números pares contidos no `vetor`.
 
-Este projeto demonstra como criar uma função em Java que recebe uma matriz `A` de dimensões `y x z` como parâmetro, aloca e devolve sua matriz transposta `At`, onde os elementos de `A[i][j]` são reorganizados em `At[j][i]` para qualquer `i` e `j`.
+6. **Calcular o percentual dos números ímpares armazenados no vetor**: Determina a porcentagem de números ímpares em relação ao total de elementos no `vetor`.
 
-## Exemplo
+7. **Calcular a média centralizada dos números armazenados no vetor**: Calcula a média centralizada dos valores, ignorando os extremos do `vetor`.
 
-Se a matriz `A` for de dimensões `3 x 2`:
-
-A matriz transposta `At` será de dimensões `2 x 3`:
-
-#  maior valor presente nesta matriz
-
-# exercicio 4
-
-Criar uma função que receba um `vetor` nxm de números inteiros e
-devolva o `maior` valor presente neste vetor.
-
-#  Exibir o traço de uma matriz
-
-
+8. **Verificar se dado um valor existe dois números em posições distintas que somados são iguais ao valor informado**: Verifica se existem dois números em posições diferentes no `vetor` cuja soma seja igual a um valor especificado.
 
 
 
