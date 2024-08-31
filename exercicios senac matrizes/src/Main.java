@@ -2,6 +2,9 @@ import exercicio1.*;
 import exercicio2.*;
 import exercicio3.*;
 import exercicio4.*;
+import exercicio5.*;
+
+
 import java.util.Scanner;
 
 /*
@@ -32,6 +35,7 @@ public class Main {
       System.out.println("Opção 2 - Imprimir o vetor");
       System.out.println("Opção 3 - Verificar se um determinado número está contido no vetor");
       System.out.println("Opção 4 - Buscar o maior número armazenado no vetor");
+      System.out.println("Opção 5 - Calcular a média dos números pares armazenados no vetor");
       System.out.println("Opção 9 - Sair");
 
       if (ligado) {
@@ -94,6 +98,14 @@ public class Main {
                 "========================================================================================================================");
             break;
             case 5:
+            System.out.println(
+                "========================================================================================================================");
+                int[] mediaNumerosPeres = new int[4];
+                
+            double mediaPares = MediaPares.calcularMediaPares(mediaNumerosPeres);
+            System.out.println("a meida dos numero pares e " +mediaPares);
+            System.out.println(
+              "========================================================================================================================");
            
             break;
 
