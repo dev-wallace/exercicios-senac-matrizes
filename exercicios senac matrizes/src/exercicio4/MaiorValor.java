@@ -2,22 +2,18 @@ package exercicio4;
 
 
 public class MaiorValor {
-    public static int maiorValor (){
+    public static int maiorValor (int[] vetorRandomizado) {
          
 
-        int maiorValor []  = new int [3];
-        maiorValor[0] = -219;
-        maiorValor[1] = 119;
-        maiorValor[2] = 99;
 
         int maior;
     
-        maior = maiorValor [0];
+        maior = vetorRandomizado [0];
 
-        for(int i = 0; i<maiorValor.length;i++){
+        for(int i = 0; i<vetorRandomizado.length;i++){
            
-                if (maiorValor[i] >maior){
-                    maior= maiorValor [i];
+                if (vetorRandomizado[i] >maior){
+                    maior= vetorRandomizado [i];
                   
                 }
 

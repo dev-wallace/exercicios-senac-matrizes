@@ -3,18 +3,19 @@ import java.util.Random;
 public class  VetorRandomizada {
 
 
-    public static int []  vetorRandomizada () {
+    public static int []  vetorRandomizado (int[] vetorRandomizado) {
+
         Random random = new Random();
 
-        int matrizRandomizada []  = new int [4];
+          
         
-        for(int i = 0; i<matrizRandomizada.length; i ++){
+        for(int i = 0; i<vetorRandomizado.length; i ++){
             
 
-            matrizRandomizada [i]  = random.nextInt();
+            vetorRandomizado [i]  = random.nextInt(0,100);
             }
         
-        return matrizRandomizada;
+        return vetorRandomizado;
 
     }
     

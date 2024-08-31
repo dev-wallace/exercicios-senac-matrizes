@@ -1,18 +1,15 @@
 package exercicio5;
 
 public class MediaPares {
-    public static double calcularMediaPares(int mediaNumerosPeres[]){
+    public static double calcularMediaPares(int[] vetorRandomizado) {
 
-        mediaNumerosPeres [0] = 200;
-        mediaNumerosPeres [1 ]= 200;
-        mediaNumerosPeres [2] = 400;
-        mediaNumerosPeres [3] = 600;
+      
         double aux;
         double soma =0;
         
-        for(int i = 0; i < mediaNumerosPeres.length;i++){
-            if(mediaNumerosPeres[i]%2 == 0){
-                aux = mediaNumerosPeres[i];
+        for(int i = 0; i < vetorRandomizado.length;i++){
+            if(vetorRandomizado[i]%2 == 0){
+                aux = vetorRandomizado[i];
 
                 soma += aux;
                 

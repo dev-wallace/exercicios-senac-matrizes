@@ -1,17 +1,17 @@
 package exercicio2;
 
 public class ImprimirVetor {
-    public static char[] imprimirVetor() {
+    public static int[] imprimirVetor(int[] vetorRandomizado) {
 
-        char valoresVetor [] = {'y','o','k','a','i'};
+       
      
         
-        for (char valor: valoresVetor){
-
+        for (int valor: vetorRandomizado){
+    System.out.println("");
             System.out.print(valor);
         }
 
-        return valoresVetor;
+        return vetorRandomizado;
 
     }
 
