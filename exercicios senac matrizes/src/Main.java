@@ -5,6 +5,7 @@ import exercicio4.*;
 import exercicio5.*;
 import exercicio6.PorcentualImpares;
 import exercicio7.MediaCentralizada;
+import exercicio8.DuasSomas;
 
 import java.util.Scanner;
 
@@ -164,7 +165,19 @@ public class Main {
           if (vetorRandomizado != null) {
             System.out.println(
                 "========================================================================================================================");
+                System.out.println("informe o numero alvo ");
+                int numeroProcurar = sc.nextInt();
 
+               
+                int[] verificando = DuasSomas.duasSomas(vetorRandomizado, numeroProcurar);
+                for (int valor : verificando) {
+                  System.out.print(valor + " ");
+                }
+                if (verificando == vetorRandomizado) {
+                  System.out.println("Valor não encontrado.");
+                } 
+
+System.out.println("");
             System.out.println(
                 "========================================================================================================================");
           } else {
