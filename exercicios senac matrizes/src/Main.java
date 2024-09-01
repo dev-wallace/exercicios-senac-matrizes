@@ -143,8 +143,15 @@ public class Main {
           if (vetorRandomizado != null) {
             System.out.println(
                 "========================================================================================================================");
-            int meio = MediaCentralizada.calcularMediaCentralizada(vetorRandomizado);
-            System.out.println(meio);
+                try {
+                  int meio = MediaCentralizada.calcularMediaCentralizada(vetorRandomizado);
+                  System.out.println(meio);
+                } catch (Exception e) {
+                  System.out.println("Erro: " + e.getMessage());
+                  
+                }
+            
+            
             
             System.out.println(
                 "========================================================================================================================");
