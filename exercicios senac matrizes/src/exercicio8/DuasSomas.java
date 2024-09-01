@@ -9,7 +9,7 @@ public class DuasSomas {
             throw new NumberNotFoundException ("O vetor deve conter pelo menos dois elementos.");
         }
 
-        
+        //solucao complexidade quadratica(forca bruta)
         for (int i = 0; i < vetorRandomizado.length; i++) {
             for (int j = i + 1; j < vetorRandomizado.length; j++) {
                 if (vetorRandomizado[i] + vetorRandomizado[j] == target) {

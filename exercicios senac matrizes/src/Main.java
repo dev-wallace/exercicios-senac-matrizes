@@ -27,10 +27,10 @@ public class Main {
   public static void main(String[] args) throws Exception {
     Scanner sc = new Scanner(System.in);
     boolean ligado = true;
-    int[] vetorRandomizado = null; // Declare the vector here
+    int[] vetorRandomizado = null; 
 
     while (ligado) {
-      // Exibe o menu
+      
       System.out.println("Escolha uma das opções abaixo:");
       System.out.println("Opção 1 - Inicializar o vetor com números aleatórios");
       System.out.println("Opção 2 - Imprimir o vetor");
